@@ -10,6 +10,9 @@ if (!defined('WP_ENV')) {
 }
 
 //Favicon Url to add custom favicon
+if (!defined('WP_CUSTOM_FAVICON_URL')) {
+  define('WP_CUSTOM_FAVICON_URL', '');  // scripts.php checks for values 'production' or 'development'
+}
 //Custom Dashboard Logo insted of default wordpress
 //Custom Footer html for admin panel
 //Custom Excerpet Length
